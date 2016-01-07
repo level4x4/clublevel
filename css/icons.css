@@ -1,0 +1,154 @@
+.cl-icon-svg-green path {
+	/*fill: #61d31e !important;*/
+}
+
+.cl-icon-svg-grey path {
+	/*fill: #383838 !important;*/
+}
+
+.btn-icon__statistika_pto_sms_soobshheniyam {
+	position: relative;
+}
+
+.btn-icon__statistika_pto_sms_soobshheniyam:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 16px;
+	bottom: 0;
+	width: 53px;
+	height: 38px;
+	margin: auto;
+	background: url(../images/icons/icon_statistika_pto_sms_soobshheniyam.svg) no-repeat 0 0;
+	background-size: contain;
+	filter: invert(100%) brightness(600%);
+	-webkit-filter: invert(100%) brightness(600%);
+	z-index: 2;
+}
+
+.btn-icon__statistika_pto_sms_soobshheniyam:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 18px;
+	bottom: 0;
+	width: 53px;
+	height: 38px;
+	margin: auto;
+	opacity: 0.2;
+	background: url(../images/icons/icon_statistika_pto_sms_soobshheniyam.svg) no-repeat 0 0;
+	background-size: contain;
+	filter: invert(100%) brightness(0%);
+	-webkit-filter: invert(100%) brightness(0%);
+	z-index: 1;
+}
+
+.cl-list-icon__circle {
+	position: relative;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: #dfd917;
+}
+
+.cl-list-icon__circle:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: no-repeat 0 0;
+	background-size: contain;
+}
+
+.icon_organizovat_sms_opros_s_polucheniem_informacii_o_tom_abonent:before {
+	width: 14px;
+	height: 28px;
+	background-image: url(../images/icons/icon_organizovat_sms_opros_s_polucheniem_informacii_o_tom_abonent.svg);
+}
+
+.icon_organizovat_navigacionnyj_mobilnyj_servis:before {
+	width: 22px;
+	height: 22px;
+	background-image: url(../images/icons/icon_organizovat_navigacionnyj_mobilnyj_servis.svg);
+}
+
+.icon_organizovat_spravochno-informacionnuyu_sluzhbu_orientirovannuyu_na_mestonaxozhdenie_abonenta:before {
+	width: 21px;
+	height: 26px;
+	background-image: url(../images/icons/icon_organizovat_spravochno-informacionnuyu_sluzhbu_orientirovannuyu_na_mestonaxozhdenie_abonenta.svg);
+}
+
+.icon_organizovat_dostup_k_informacii_cherez_sms_klyuch:before {
+	width: 25px;
+	height: 24px;
+	background-image: url(../images/icons/icon_organizovat_dostup_k_informacii_cherez_sms_klyuch.svg);
+}
+
+.icon_organizovat_platnyj_dostup_k_arxivu_kontenta_v_chat_i_td:before {
+	width: 27px;
+	height: 25px;
+	background-image: url(../images/icons/icon_organizovat_platnyj_dostup_k_arxivu_kontenta_v_chat_i_td.svg);
+}
+
+.icon_o_novyx_uslugax_libo_tovarax:before {
+	width: 29px;
+	height: 22px;
+	background-image: url(../images/icons/icon_o_novyx_uslugax_libo_tovarax.svg);
+}
+
+.icon_prodat_svoyu_uslugu_ili_tovar_cherez_platnyj_sms_nomer:before {
+	width: 26px;
+	height: 26px;
+	background-image: url(../images/icons/icon_prodat_svoyu_uslugu_ili_tovar_cherez_platnyj_sms_nomer.svg);
+}
+
+.icon_o_postuplenii_ranee_zakazannogo_tovara_libo_uslugi:before {
+	width: 28px;
+	height: 25px;
+	left: -4px;
+	background-image: url(../images/icons/icon_o_postuplenii_ranee_zakazannogo_tovara_libo_uslugi.svg);
+}
+
+.icon_o_gryadushhix_meropriyatiyax_otkrytiyax_novyx_tochek:before {
+	width: 15px;
+	height: 25px;
+	background-image: url(../images/icons/icon_o_gryadushhix_meropriyatiyax_otkrytiyax_novyx_tochek.svg);
+}
+
+.icon_o_specialnyx_akciyax_sms_skidka_libo_sms_kupon:before {
+	width: 24px;
+	height: 21px;
+	background-image: url(../images/icons/icon_o_specialnyx_akciyax_sms_skidka_libo_sms_kupon.svg);
+}
+
+.icon_o_lyubyx_sobytiyax_opredelyonnyx_specifikoj_deyatelnosti_kompanii:before {
+	width: 25px;
+	height: 17px;
+	background-image: url(../images/icons/icon_o_lyubyx_sobytiyax_opredelyonnyx_specifikoj_deyatelnosti_kompanii.svg);
+}
+
+.icon_organizovat_uslugu_zakaza_rbt_na_sobstvennom_resurse:before {
+	width: 27px;
+	height: 22px;
+	right: -4px;
+	background-image: url(../images/icons/icon_organizovat_uslugu_zakaza_rbt_na_sobstvennom_resurse.svg);
+}
+
+.icon_prodavat_svoi_melodii_v_kachestve_rbt:before {
+	width: 19px;
+	height: 24px;
+	background-image: url(../images/icons/icon_prodavat_svoi_melodii_v_kachestve_rbt.svg);
+}
+
+.icon_provesti_sms_viktorinu_sms_konkurs_sms_akciyu_sms_igru:before {
+	width: 25px;
+	height: 21px;
+	background-image: url(../images/icons/icon_provesti_sms_viktorinu_sms_konkurs_sms_akciyu_sms_igru.svg);
+}
