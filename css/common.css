@@ -312,6 +312,14 @@ h4 {
 	padding-left: 91px;
 }
 
+.btn-text {
+	padding-left: 54px;
+	padding-right: 54px;
+	height: 57px;
+	font-size: 25px;
+	line-height: 31px;
+}
+
 .cl-phone-sms-text {
 	border: 1px solid #61d21d;
 	border-radius: 3px 3px 3px 3px;
