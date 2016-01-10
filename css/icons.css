@@ -152,3 +152,59 @@
 	height: 21px;
 	background-image: url(../images/icons/icon_provesti_sms_viktorinu_sms_konkurs_sms_akciyu_sms_igru.svg);
 }
+
+.icon_zapustit_svoj_individualnyj_servis_s_ispolzovaniem_sms:before {
+	width: 19px;
+	height: 25px;
+	background-image: url(../images/icons/icon_zapustit_svoj_individualnyj_servis_s_ispolzovaniem_sms.svg);
+}
+
+.icon_realizovyvat_mobilnyj_kontent_cherez_platnyj_sms_nomer:before {
+	width: 25px;
+	height: 19px;
+	background-image: url(../images/icons/icon_realizovyvat_mobilnyj_kontent_cherez_platnyj_sms_nomer.svg);
+}
+
+.icon_vnedrit_sms_marketing_provesti_sms_akciyu_dlya_stimulirovaniya_prodazh:before {
+	width: 23px;
+	height: 22px;
+	background-image: url(../images/icons/icon_vnedrit_sms_marketing_provesti_sms_akciyu_dlya_stimulirovaniya_prodazh.svg);
+}
+
+.icon_vzyat_v_arendu_platnye_korotkie_sms_nomera:before {
+	width: 20px;
+	height: 20px;
+	background-image: url(../images/icons/icon_vzyat_v_arendu_platnye_korotkie_sms_nomera.svg);
+}
+
+.icon_spravochno-informacionnye_servisy_i_konsultacionnye_portaly-20:before {
+	width: 17px;
+	height: 22px;
+	background-image: url(../images/icons/icon_spravochno-informacionnye_servisy_i_konsultacionnye_portaly-20.svg);
+}
+
+.icon_monetizirovat_svoj_wap_ili_web-proekt_cherez_platnye_korotkie_sms_nomera:before {
+	width: 27px;
+	height: 20px;
+	background-image: url(../images/icons/icon_monetizirovat_svoj_wap_ili_web-proekt_cherez_platnye_korotkie_sms_nomera.svg);
+}
+
+.icon_organizovat_peredachu_privetov_i_pozdravlenij_v_tele_i_radioprogrammy:before {
+	width: 25px;
+	height: 22px;
+	background-image: url(../images/icons/icon_organizovat_peredachu_privetov_i_pozdravlenij_v_tele_i_radioprogrammy.svg);
+}
+
+.icon_kupit_personalnyj_korotkij_platnyj_sms_nomer:before {
+	width: 8px;
+	height: 21px;
+	background-image: url(../images/icons/icon_kupit_personalnyj_korotkij_platnyj_sms_nomer.svg);
+}
+
+.icon_provesti_sms_golosovanie_sms_opros_sms_anketirovanie:before {
+	top: -5px;
+	right: -4px;
+	width: 19px;
+	height: 20px;
+	background-image: url(../images/icons/icon_provesti_sms_golosovanie_sms_opros_sms_anketirovanie.svg);
+}

@@ -46,6 +46,14 @@ h4 {
 	width: 145px;
 }
 
+.text-black {
+	color: #383838;
+}
+
+.font-size-20 {
+	font-size: 20px;
+}
+
 .cl-in-right-background {
 	box-sizing: content-box;
 	background-color: #faf9d8;
@@ -365,6 +373,52 @@ h4 {
 	padding: 0 15px 0 20px;
 	color: #383838;
 	line-height: 18px;
+}
+
+.cl-numeric:before {
+	content: attr(data-number);
+	color: #61d21d;
+	border-radius: 50%;
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	border: 3px solid #dfd917;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	margin-right: 15px;
+}
+
+.cl-circle-yellow {
+	background-color: #dfd917;
+	width: 82px;
+	height: 82px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.cl-circle-yellow svg {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.cl-table > thead > tr > td,
+.cl-table > tbody > tr > td {
+	padding-left: 80px;
+}
+
+.cl-table thead td {
+	font-size: 35px;
+	background-color: #faf9d8;
+}
+
+.cl-table > tbody > tr > td {
+	font-size: 40px;
+	border-top-color: #faf9d8;
 }
 
 .cl-footer-correct {
