@@ -489,6 +489,7 @@ h4 {
 
 .cl-footer-nav-container {
 	background-color: #4ca821;
+	height: 206px;
 }
 
 .cl-footer-nav {
@@ -531,4 +532,75 @@ h4 {
 	font-size: 12px;
 	line-height: 40px;
 	background-color: #3b8d16;
+}
+
+@media (min-width: 768px) {
+	.cl-header-nav {
+		display: none;
+	}
+
+	.cl-footer-container {
+		background: #4ca821;
+	}
+	.cl-footer-logo-container {
+		display: block;
+		background-color: #4ca821;
+		margin: 0 auto;
+	}
+
+	.cl-footer-nav {
+		display: none;
+	}
+
+	.cl-footer-logo-container.pull-left {
+		float: none !important;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.cl-header-nav {
+		display: block;
+	}
+
+	.cl-header-nav,
+	.cl-header-nav li .cl-sub-menu ul li a {
+		font-size: 14px;
+	}
+
+	.cl-footer-container {
+		background: #4ca821;
+	}
+
+	.cl-footer-logo-container {
+		display: none;
+	}
+
+	.cl-footer-nav {
+		display: block;
+	}
+
+	.cl-footer-logo-container.pull-left {
+		float: left !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	.cl-header-nav,
+	.cl-header-nav li .cl-sub-menu ul li a {
+		font-size: 16px;
+	}
+
+	.cl-footer-container {
+		background: linear-gradient(to left, #4ca821 0%, #4ca821 50%, #449b1c 50%);
+	}
+	.cl-footer-logo-container {
+		display: block;
+		background-color: #449b1c;
+		margin-left: -15px;
+	}
+
+	.cl-footer-logo-container {
+		display: block;
+	}
 }
