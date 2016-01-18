@@ -287,6 +287,18 @@ h4 {
 	padding: 12px 20px;
 }
 
+.cl-right-content__hard-green-container .cl-right-content__body {
+	background-color: #3b8d16;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: normal;
+	border-radius: 4px;
+}
+
+.cl-right-content__hard-green-container .icon_vashe_voznagrazhdenie {
+	height: 155px;
+}
+
 .cl-right-content__green-container .cl-right-content__body {
 	background-color: #ddf5d1;
 }
@@ -397,6 +409,16 @@ h4 {
 	position: relative;
 }
 
+.cl-big-circle {
+	width: 143px;
+	height: 143px;
+	margin: 0 auto 30px auto;
+}
+
+.cl-margin-top-30 {
+	margin-top: 40px;
+}
+
 .cl-circle-yellow svg {
 	position: absolute;
 	top: 0;
@@ -404,6 +426,10 @@ h4 {
 	left: 0;
 	right: 0;
 	margin: auto;
+}
+
+.cl-margin-center {
+	margin: 30px auto;
 }
 
 .cl-table > thead > tr > td,
@@ -414,6 +440,15 @@ h4 {
 .cl-table thead td {
 	font-size: 35px;
 	background-color: #faf9d8;
+}
+
+.cl-table thead td p {
+	font-size: 24px;
+}
+
+.cl-table thead td p small {
+	font-size: 16px;
+	display: block;
 }
 
 .cl-table > tbody > tr > td {
