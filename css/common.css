@@ -54,6 +54,10 @@ h4 {
 	font-size: 20px;
 }
 
+.cl-menu-open {
+	margin-bottom: 30px;
+}
+
 .cl-header-logo {
 	background-color: #69ad34;
 	height: 34px;
@@ -423,16 +427,31 @@ h4 {
 	position: relative;
 }
 
+.cl-circle-white {
+	background-color: #ffffff;
+	width: 82px;
+	height: 82px;
+	border-radius: 50%;
+	position: relative;
+}
+
 .cl-big-circle {
 	width: 143px;
 	height: 143px;
 	margin: 0 auto 30px auto;
 }
 
+.cl-middle-circle {
+	width: 103px;
+	height: 103px;
+	margin: 0 auto;
+}
+
 .cl-margin-top-30 {
 	margin-top: 40px;
 }
 
+.cl-circle-white svg,
 .cl-circle-yellow svg {
 	position: absolute;
 	top: 0;
@@ -456,6 +475,19 @@ h4 {
 	background-color: #faf9d8;
 }
 
+.cl-table-sm {
+	color: #383838;
+}
+
+.cl-table-sm.cl-table thead td {
+	font-size: 24px;
+}
+
+.cl-table-sm.cl-table > thead > tr > td,
+.cl-table-sm.cl-table > tbody > tr > td {
+	padding-left: 40px;
+}
+
 .cl-table thead td p {
 	font-size: 24px;
 }
@@ -468,6 +500,10 @@ h4 {
 .cl-table > tbody > tr > td {
 	font-size: 40px;
 	border-top-color: #faf9d8;
+}
+
+.cl-table-sm.cl-table > tbody > tr > td {
+	font-size: 30px;
 }
 
 .cl-footer-correct {
@@ -546,6 +582,103 @@ h4 {
 	font-size: 12px;
 	line-height: 40px;
 	background-color: #3b8d16;
+}
+
+.cl-color-container {
+	color: #ffffff;
+	padding: 30px;
+}
+
+.cl-color-container h4 {
+	color: #ffffff;
+	margin-top: 0;
+}
+
+.cl-color-container p {
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.cl-color-container .cl-big-circle {
+	margin: 0 auto;
+}
+
+.cl-color-container a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.cl-color-container a:hover {
+	text-decoration: none;
+}
+
+.cl-green-container {
+	background-color: #3b8d16;
+}
+
+.cl-wet-tropical-forest-container {
+	background-color: #168d75;
+}
+
+.cl-moray-container {
+	background-color: #16808d;
+}
+
+.cl-color-container-description {
+	padding: 20px 30px;
+	margin-bottom: 20px;
+}
+
+.cl-color-container-description h4 {
+	line-height: 20px;
+	margin-bottom: 30px;
+}
+
+.cl-color-container-description .cl-list-icons__image {
+	width: 40px;
+}
+
+.cl-color-container-description .cl-checked-list .cl-list-icons__image {
+	text-align: left;
+}
+
+.cl-green-container-description {
+	background-color: #ddf5d1;
+}
+
+.cl-wet-tropical-forest-container-description {
+	background-color: #d1f5e3;
+}
+
+.cl-moray-container-description {
+	background-color: #d1f5e3;
+}
+
+.cl-table-color-container {
+	margin: -20px -30px 0 -30px;
+}
+
+
+.cl-table-sm.cl-table.cl-table-green thead td {
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 20px;
+	background-color: #2e760d;
+}
+
+.cl-table-sm.cl-table.cl-table-green > thead > tr > td:first-child,
+.cl-table-sm.cl-table.cl-table-green > tbody > tr > td:first-child {
+	width: 45%;
+}
+
+.cl-table-sm.cl-table.cl-table-green > thead > tr > td,
+.cl-table-sm.cl-table.cl-table-green > tbody > tr > td {
+	padding-left: 20px;
+	border-top-color: #b8e69d;
+}
+
+.cl-table-sm.cl-table.cl-table-green > tbody > tr:last-child > td {
+	border-bottom: 1px solid #b8e69d;
 }
 
 @media (min-width: 768px) {

@@ -147,6 +147,19 @@
 	background-image: url(../images/icons/icon_prodavat_svoi_melodii_v_kachestve_rbt.svg);
 }
 
+.icon_organizovat_platnuyu_konsultaciyu_po_telefonu:before {
+	width: 17px;
+	height: 25px;
+	background-image: url(../images/icons/icon_organizovat_platnuyu_konsultaciyu_po_telefonu.svg);
+}
+
+.icon_organizovat_platnyj_dozvon_v_studii_i_pryamye_efiry:before {
+	width: 25px;
+	height: 22px;
+	top: 2px;
+	background-image: url(../images/icons/icon_organizovat_platnyj_dozvon_v_studii_i_pryamye_efiry.svg);
+}
+
 .icon_provesti_sms_viktorinu_sms_konkurs_sms_akciyu_sms_igru:before {
 	width: 25px;
 	height: 21px;
@@ -163,6 +176,24 @@
 	width: 25px;
 	height: 19px;
 	background-image: url(../images/icons/icon_realizovyvat_mobilnyj_kontent_cherez_platnyj_sms_nomer.svg);
+}
+
+.icon_k_sluzhbe_podderzhki_kompanii:before {
+	width: 27px;
+	height: 19px;
+	background-image: url(../images/icons/icon_k_sluzhbe_podderzhki_kompanii.svg);
+}
+
+.icon_k_sluzhbe_taksi:before {
+	width: 25px;
+	height: 10px;
+	background-image: url(../images/icons/icon_k_sluzhbe_taksi.svg);
+}
+
+.icon_k_konsultacionnoj_sluzhbe_kompanii:before {
+	width: 17px;
+	height: 22px;
+	background-image: url(../images/icons/icon_k_konsultacionnoj_sluzhbe_kompanii.svg);
 }
 
 .icon_vnedrit_sms_marketing_provesti_sms_akciyu_dlya_stimulirovaniya_prodazh:before {
