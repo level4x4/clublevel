@@ -510,14 +510,14 @@ h4 {
 }
 
 .cl-footer-correct {
-	height: 250px;
+	height: 240px;
 }
 
 .cl-footer-container {
-	margin-top: -250px;
+	margin-top: -240px;
 	border-top: 4px solid #dfd917;
 	background: linear-gradient(to left, #4ca821 0%, #4ca821 50%, #449b1c 50%);
-	height: 250px;
+	height: 240px;
 }
 
 .cl-footer-logo-container {
@@ -723,7 +723,13 @@ h4 {
 		font-size: 0.875em;
 	}
 
+	.cl-footer-correct {
+		height: 235px;
+	}
+
 	.cl-footer-container {
+		margin-top: -235px;
+		height: 235px;
 		background: #4ca821;
 	}
 
@@ -753,9 +759,16 @@ h4 {
 		display: none;
 	}
 
+	.cl-footer-correct {
+		height: 233px;
+	}
+
 	.cl-footer-container {
+		margin-top: -233px;
+		height: 233px;
 		background: #4ca821;
 	}
+
 	.cl-footer-logo-container {
 		display: block;
 		background-color: #4ca821;
