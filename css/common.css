@@ -258,7 +258,7 @@ h5 {
 	color: #6c6c6c;
 }
 
-.cl-item-solutions:hover {
+a.cl-item-solutions:hover {
 	color: #000000;
 }
 
@@ -272,13 +272,13 @@ h5 {
 	letter-spacing: -0.5px;
 }
 
-.cl-item-solutions:hover h4,
-.cl-item-solutions:hover h5 {
+a.cl-item-solutions:hover h4,
+a.cl-item-solutions:hover h5 {
 	text-decoration: underline;
 }
 
 .cl-item-solutions,
-.cl-item-solutions:hover {
+a.cl-item-solutions:hover {
 	text-decoration: none;
 }
 
@@ -290,11 +290,16 @@ h5 {
 	margin: 10px auto;
 }
 
-.cl-item-solutions:hover .cl-image-col-4 {
+.cl-item-solutions-middle .cl-image-col-4 {
+	height: 80px;
+	width: 80px;
+}
+
+a.cl-item-solutions:hover .cl-image-col-4 {
 	background-color: #dfd917;
 }
 
-.cl-item-solutions:hover .cl-image-col-4 svg {
+a.cl-item-solutions:hover .cl-image-col-4 svg {
 	filter: invert(100%) brightness(600%);
 	-webkit-filter: invert(100%) brightness(600%);
 }
