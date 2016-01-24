@@ -36,6 +36,10 @@ h4 {
 	font-size: 1.625em;
 }
 
+h5 {
+	font-size: 1.250em;
+}
+
 .wrapper {
 	height: auto !important;
 	min-height: 100%;
@@ -50,8 +54,17 @@ h4 {
 	color: #383838;
 }
 
+.font-size-18 {
+	font-size: 1.125em;
+}
+
 .font-size-20 {
 	font-size: 1.250em;
+}
+
+.cl-index-images-description {
+	width: 300px;
+	height: 200px;
 }
 
 .cl-menu-open {
@@ -360,9 +373,17 @@ h4 {
 .btn-text {
 	padding-left: 54px;
 	padding-right: 54px;
-	height: 57px;
+	/*height: 57px;*/
 	font-size: 1.563em;
-	line-height: 1.938em;
+	line-height: 1.938;
+}
+
+.cl-list-type- {
+	list-style: none;
+}
+
+.cl-list-type- li:before {
+	content: "— ";
 }
 
 .cl-phone-sms-text {
@@ -689,6 +710,10 @@ h4 {
 	color: #6c6c6c;
 }
 
+.cl-slider-container {
+	height: 598px;
+}
+
 @media (max-width: 1200px) {
 	.cl-header-nav,
 	.cl-header-nav li .cl-sub-menu ul li a {
@@ -743,6 +768,11 @@ h4 {
 
 	.cl-footer-logo-container.pull-left {
 		float: left !important;
+	}
+
+	.cl-index-images-description {
+		width: 228px;
+		height: 151px;
 	}
 }
 
@@ -799,6 +829,11 @@ h4 {
 	.cl-right-content {
 		padding-top: 1px;
 		margin-bottom: 4px;
+	}
+
+	.cl-index-images-description {
+		width: 300px;
+		height: 200px;
 	}
 }
 

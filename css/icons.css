@@ -147,10 +147,22 @@
 	background-image: url(../images/icons/icon_prodavat_svoi_melodii_v_kachestve_rbt.svg);
 }
 
+.icon_korotkie_platnye_i_besplatnye_golosovye_i_sms_nomera:before {
+	width: 24px;
+	height: 21px;
+	background-image: url(../images/icons/icon_korotkie_platnye_i_besplatnye_golosovye_i_sms_nomera.svg);
+}
+
 .icon_organizovat_platnuyu_konsultaciyu_po_telefonu:before {
 	width: 17px;
 	height: 25px;
 	background-image: url(../images/icons/icon_organizovat_platnuyu_konsultaciyu_po_telefonu.svg);
+}
+
+.icon_spravochno-informacionnye_servisy_i_konsultacionnye_portaly-48:before {
+	width: 20px;
+	height: 23px;
+	background-image: url(../images/icons/icon_spravochno-informacionnye_servisy_i_konsultacionnye_portaly-48.svg);
 }
 
 .icon_organizovat_platnyj_dozvon_v_studii_i_pryamye_efiry:before {
@@ -194,6 +206,12 @@
 	width: 17px;
 	height: 22px;
 	background-image: url(../images/icons/icon_k_konsultacionnoj_sluzhbe_kompanii.svg);
+}
+
+.icon_onlajn_wap_i_web-proekty:before {
+	width: 14px;
+	height: 20px;
+	background-image: url(../images/icons/icon_onlajn_wap_i_web-proekty.svg);
 }
 
 .icon_vnedrit_sms_marketing_provesti_sms_akciyu_dlya_stimulirovaniya_prodazh:before {
