@@ -238,6 +238,12 @@ h5 {
 	display: inline-block;
 }
 
+.cl-main-yellow-separator {
+	border-width: 1px;
+	border-color: #dfd917;
+	width: 65%;
+}
+
 .cl-content-yellow-separator {
 	border-width: 4px;
 	border-color: #faf9d8;
@@ -261,11 +267,13 @@ h5 {
 	font-size: 1.125em;
 }
 
-.cl-item-solutions h4 {
+.cl-item-solutions h4,
+.cl-item-solutions h5 {
 	letter-spacing: -0.5px;
 }
 
-.cl-item-solutions:hover h4 {
+.cl-item-solutions:hover h4,
+.cl-item-solutions:hover h5 {
 	text-decoration: underline;
 }
 
