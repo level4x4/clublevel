@@ -51,8 +51,47 @@
 			</div>
 		</div>
 	</header>
-	<div class="cl-slider-container">
+	<div class="cl-main-top-container">
+		<div class="text-center">
+			<img class="cl-color-logo" src="images/color-logo.png" width="162" height="95" alt="" title="">
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5">
+						<div class="cl-slider-container">
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								<!-- Indicators -->
 
+
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<div class="carousel-caption">Проведение sms голосований, sms опросов, sms анкетирований</div>
+									</div>
+									<div class="item">
+										<div class="carousel-caption">Проведение sms голосований, sms опросов, sms анкетирований</div>
+									</div>
+									<div class="item">
+										<div class="carousel-caption">Проведение sms голосований, sms опросов, sms анкетирований</div>
+									</div>
+								</div>
+
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+								</ol>
+							</div>
+						</div>
+				</div>
+				<div class="col-sm-7 cl-main-top-container__right-col">
+					<div class="cl-main-top-container__right-text">
+						<h2>Отвечаем за короткие SMS<br>и Голосовые номера<br>в Украине</h2>
+						<h5>Качественный и удобный сервис</h5>
+						<a class="cl-margin-top-30 btn btn-big btn-icon__statistika_pto_sms_soobshheniyam text-left">Присоединяйтесь!<br><small>Это быстро и очень просто</small></a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="container">
 		<br>
@@ -205,5 +244,9 @@
 </footer>
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/image.to.svg.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$('.carousel').carousel();
+</script>
 </body>
 </html>

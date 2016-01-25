@@ -385,8 +385,9 @@
     "type.less",
     "grid.less",
     "tables.less",
-    "media.less"
+    "media.less",
+    "carousel.less"
   ],
   "js": [],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=c238ec5b07a094f514fe"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=63ae5f7ec2d56c011ede"
 }

@@ -62,6 +62,40 @@ h5 {
 	font-size: 1.250em;
 }
 
+.cl-slider-container .carousel {
+	top: 193px;
+}
+
+.cl-slider-container .carousel .item {
+	height: 138px;
+}
+
+.carousel-caption {
+	text-align: left;
+	text-shadow: none;
+	line-height: normal;
+	padding-bottom: 20px;
+	font-size: 16px;
+}
+
+.cl-slider-container .carousel .carousel-indicators {
+	bottom: 5px;
+}
+
+.carousel-indicators li {
+	background-color: #ffffff;
+	border: 0;
+	height: 8px;
+	width: 8px;
+}
+
+.carousel-indicators .active {
+	background-color: #dfd917;
+	height: 8px;
+	width: 8px;
+	margin: 1px;
+}
+
 .cl-index-images-description {
 	width: 300px;
 	height: 200px;
@@ -723,8 +757,44 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	color: #6c6c6c;
 }
 
-.cl-slider-container {
+.cl-main-top-container {
 	height: 598px;
+	background: url(../images/img_index_top.jpg) no-repeat center center;
+}
+
+.cl-main-top-container__right-text {
+	margin-top: 60px;
+	margin-left: -22px;
+}
+
+.cl-main-top-container__right-text h2 {
+	line-height: 36px;
+	margin-bottom: 20px;
+}
+
+.cl-main-top-container__right-text .btn {
+	padding-left: 120px;
+	padding-right: 50px;
+}
+
+.cl-main-top-container__right-text .btn-icon__statistika_pto_sms_soobshheniyam:before {
+	left: 34px;
+}
+
+.cl-main-top-container__right-text .btn-icon__statistika_pto_sms_soobshheniyam:after {
+	left: 36px;
+}
+
+.cl-slider-container {
+	background: url(../images/main-slider-bg.png) no-repeat center center;
+	width: 226px;
+	height: 394px;
+	margin-top: -33px;
+	margin-left: 91px;
+}
+
+.cl-color-logo {
+	margin-top: 35px;
 }
 
 @media (max-width: 1200px) {
@@ -787,11 +857,28 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 		width: 228px;
 		height: 151px;
 	}
+
+	.cl-slider-container {
+		margin-top: -33px;
+		margin-left: -19px;
+	}
+
+	.cl-main-top-container__right-text {
+		margin-left: -42px;
+	}
 }
 
 @media (max-width: 768px) {
 	body {
 		font-size: 12px;
+	}
+
+	.cl-main-top-container__right-col {
+		display: none;
+	}
+
+	.cl-main-top-container {
+		background-image: url(../images/img_index_top-small.jpg);
 	}
 
 	.cl-menu-open {
