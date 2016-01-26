@@ -54,6 +54,10 @@ h5 {
 	color: #383838;
 }
 
+.text-green {
+	color: #50b522;
+}
+
 .font-size-18 {
 	font-size: 1.125em;
 }
@@ -70,7 +74,7 @@ h5 {
 	height: 138px;
 }
 
-.carousel-caption {
+.cl-slider-container .carousel-caption {
 	text-align: left;
 	text-shadow: none;
 	line-height: normal;
@@ -82,18 +86,67 @@ h5 {
 	bottom: 5px;
 }
 
-.carousel-indicators li {
+.cl-slider-container .carousel-indicators li {
 	background-color: #ffffff;
 	border: 0;
 	height: 8px;
 	width: 8px;
 }
 
-.carousel-indicators .active {
+.cl-slider-container .carousel-indicators .active {
 	background-color: #dfd917;
 	height: 8px;
 	width: 8px;
 	margin: 1px;
+}
+
+.cl-reviews-container .carousel-caption {
+	position: static;
+	text-shadow: none;
+	color: #6c6c6c;
+}
+
+.cl-reviews-container .carousel-control.right,
+.cl-reviews-container .carousel-control.left,
+.cl-reviews-container .carousel-control {
+	opacity: 1;
+	text-shadow: none;
+}
+
+.cl-carousel-img {
+	width: 93px;
+	height: 93px;
+	border-radius: 50%;
+	border: 12px solid #faf9d8;
+	margin: 0 auto 10px auto;
+}
+
+.cl-carousel-img img {
+	border-radius: 50%;
+}
+
+.cl-reviews-container .carousel-control {
+	top: 50px;
+	width: 14px;
+	height: 27px;
+	background: url(../images/arrows-slider.png) no-repeat 0 0;
+}
+
+.cl-reviews-container .carousel-control.left {
+	left: calc(50% - 77.5px);
+	background-position: 0 0;
+}
+.cl-reviews-container .carousel-control.left:hover {
+	background-position: 0 -27px;
+}
+
+.cl-reviews-container .carousel-control.right {
+	right: calc(50% - 77.5px);
+	background-position: -14px 0;
+}
+
+.cl-reviews-container .carousel-control.right:hover {
+	background-position: -14px -27px;
 }
 
 .cl-index-images-description {
@@ -832,6 +885,10 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	background-color: #d4d618;
 }
 
+.cl-mobile {
+	display: none;
+}
+
 @media (max-width: 1200px) {
 	.cl-navigation,
 	.cl-navigation li .cl-sub-menu ul li a {
@@ -1025,6 +1082,29 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	.cl-menu-button {display: block;}
 	.cl-menu-container {float: right !important;}
 	.cl-menu-container .cl-checked-menu:checked + label ~ .cl-navigation {visibility: visible; opacity: 1;}
+
+	.cl-main-top-container {
+		height: 971px;
+	}
+
+	.cl-slider-container {
+		margin-left: 72px;
+		margin-top: 106px;
+	}
+
+	h2.cl-mobile {
+		margin-top: 32px;
+	}
+
+	.btn.cl-mobile {
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-top: 55px;
+	}
+
+	.cl-mobile {
+		display: block;
+	}
 }
 
 @media (min-width: 768px) {
