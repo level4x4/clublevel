@@ -894,6 +894,19 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	display: none;
 }
 
+.cl-xs-row:before, .cl-xs-row:after {
+	content: " ";
+	display: table;
+}
+
+.cl-xs-row:after {
+	clear: both;
+}
+.cl-xs-row {
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
 @media (max-width: 1200px) {
 	.cl-navigation,
 	.cl-navigation li .cl-sub-menu ul li a {
@@ -1198,6 +1211,19 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 
 	.cl-md-row {
 		clear: both;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.cl-iframe-youtube {
+		width: 100%;
+	}
+
+	.cl-xs-svg svg {
+		width: 100%;
+	}
+
+	.cl-xs-row {
 		margin-left: 0;
 		margin-right: 0;
 	}
