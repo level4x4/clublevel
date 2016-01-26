@@ -546,8 +546,8 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	display: inline-block;
 	border: 3px solid #dfd917;
 	text-align: center;
-	line-height: 1.875em;
-	font-size: 1.250em;
+	line-height: 30px;
+	font-size: 20px;
 	margin-right: 15px;
 }
 
@@ -599,7 +599,11 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 
 .cl-table > thead > tr > td,
 .cl-table > tbody > tr > td {
-	padding-left: 80px;
+	padding-left: 40px;
+}
+
+.cl-table {
+	color: #383838;
 }
 
 .cl-table thead td {
@@ -620,15 +624,6 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	padding-left: 40px;
 }
 
-.cl-table thead td p {
-	font-size: 1.500em;
-}
-
-.cl-table thead td p small {
-	font-size: 1.000em;
-	display: block;
-}
-
 .cl-table > tbody > tr > td {
 	font-size: 2.500em;
 	border-top-color: #faf9d8;
@@ -636,6 +631,16 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 
 .cl-table-sm.cl-table > tbody > tr > td {
 	font-size: 1.875em;
+}
+
+.cl-table thead td p {
+	font-size: 0.600em;
+}
+
+.cl-table thead td p small {
+	font-size: 0.667em;
+	display: block;
+	color: #6c6c6c;
 }
 
 .cl-footer-correct {
@@ -958,11 +963,33 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	.cl-main-top-container__right-text {
 		margin-left: -42px;
 	}
+
+	.cl-menu-container {
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+
+	.cl-header-phone {
+		margin-right: -35px;
+	}
+
+	.cl-in-right-background {
+		left: -50%;
+	}
 }
 
 @media (max-width: 768px) {
 	body {
 		font-size: 12px;
+	}
+
+	.cl-header-phone {
+		margin-right: 0;
+	}
+
+	.cl-menu-container {
+		margin-right: 0;
+		margin-left: 0;
 	}
 
 	.cl-main-top-container__right-col {
@@ -1122,5 +1149,56 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 @media (min-width: 1200px) {
 	.container {
 		width: 960px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.cl-col-md-6 {
+		width: 100%;
+	}
+}
+
+@media (max-width: 992px) {
+	.cl-col-md-6 {
+		float: left;
+		width: 50%;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.cl-md-hide {
+		display: none;
+	}
+
+	.cl-md-row:before, .cl-md-row:after {
+		content: " ";
+		display: table;
+	}
+
+	.cl-md-row:after {
+		clear: both;
+	}
+	.cl-md-row {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.cl-col-md-6 {
+		float: none;
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.cl-md-hide {
+		display: block;
+	}
+
+	.cl-md-row {
+		clear: both;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
