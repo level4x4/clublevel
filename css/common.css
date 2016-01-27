@@ -269,6 +269,7 @@ h5 {
 	font-size: 0.875em;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-right: -2px;
 }
 
 .cl-title-container {
@@ -1128,22 +1129,31 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	}
 
 	.cl-slider-container {
-		margin-left: 72px;
+		margin-left: auto;
 		margin-top: 106px;
+		margin-right: auto;
+	}
+
+	.cl-width-320 {
+		width: 320px;
 	}
 
 	h2.cl-mobile {
 		margin-top: 32px;
 	}
 
-	.btn.cl-mobile {
-		margin-left: 30px;
-		margin-right: 30px;
+	.cl-xs-text-center .btn.cl-mobile {
+		margin-left: auto;
+		margin-right: auto;
 		margin-top: 55px;
 	}
 
 	.cl-mobile {
 		display: block;
+	}
+
+	.cl-xs-menu-main .cl-navigation {
+		top: 30px;
 	}
 }
 
@@ -1219,6 +1229,7 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 		width: 100%;
 	}
 
+	.cl-xs-svg img,
 	.cl-xs-svg svg {
 		width: 100%;
 	}
@@ -1226,5 +1237,24 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	.cl-xs-row {
 		margin-left: 0;
 		margin-right: 0;
+	}
+
+	.cl-table-xs.cl-table thead td {
+		font-size: 1em;
+	}
+
+	.cl-table-xs.cl-table > thead > tr > td,
+	.cl-table-xs.cl-table > tbody > tr > td {
+		padding-left: 20px;
+	}
+
+	.cl-table-xs.cl-table > tbody > tr > td {
+		font-size: 1.5em;
+	}
+
+	.cl-xs-text-center {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
