@@ -964,11 +964,6 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 		float: left !important;
 	}
 
-	.cl-index-images-description {
-		width: 228px;
-		height: 151px;
-	}
-
 	.cl-slider-container {
 		margin-top: -33px;
 		margin-left: -19px;
@@ -1112,11 +1107,6 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 		margin-bottom: 4px;
 	}
 
-	.cl-index-images-description {
-		width: 300px;
-		height: 200px;
-	}
-
 	.cl-header-phone.pull-right {
 		float: left !important;
 	}
@@ -1162,17 +1152,29 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	.container {
 		width: 740px;
 	}
+	.cl-index-images-description {
+		width: 228px;
+		height: 151px;
+	}
 }
 
 @media (min-width: 992px) {
 	.container {
 		width: 960px;
 	}
+	.cl-index-images-description {
+		width: 300px;
+		height: 200px;
+	}
 }
 
 @media (min-width: 1200px) {
 	.container {
 		width: 960px;
+	}
+	.cl-index-images-description {
+		width: 300px;
+		height: 200px;
 	}
 }
 
@@ -1209,6 +1211,11 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 }
 
 @media (max-width: 768px) {
+	.cl-col-sx-4-6 {
+		width: 50%
+	}
+
+
 	.cl-col-md-6 {
 		float: none;
 		width: 100%;
