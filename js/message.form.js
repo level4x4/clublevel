@@ -9,11 +9,11 @@
 			$('<form/>', {action: '', method: 'POST'}).append(
 				$('<p/>', {class: 'mf-title-popup', text: 'Написать сообщение'})
 			).append(
-				$('<input/>', {class: 'mf-popup-input', type: 'text', placeholder: 'Имя', required: true})
+				$('<input/>', {class: 'mf-popup-input', type: 'text', placeholder: 'Имя', required: true, name: ''})
 			).append(
-				$('<input/>', {class: 'mf-popup-input', type: 'text', placeholder: 'Контакт (телефон, e-mail)', required: true})
+				$('<input/>', {class: 'mf-popup-input', type: 'text', placeholder: 'Контакт (телефон, e-mail)', required: true, name: ''})
 			).append(
-				$('<textarea/>', {class: 'mf-popup-textarea', placeholder: 'Текст сообщения', required: true})
+				$('<textarea/>', {class: 'mf-popup-textarea', placeholder: 'Текст сообщения', required: true, name: ''})
 			).append(
 				$('<button/>', {class: 'btn btn-big btn-text mf-submit', type: 'submit', text: 'Отправить'})
 			).append(
