@@ -202,7 +202,7 @@ h5 {
 .cl-menu-button {display: none; cursor: pointer; transition: ease 300ms; height: 18px; line-height: 36px;}
 .cl-menu-button:hover {color: #f5d804;}
 
-.cl-menu-container {width: 100%}
+.cl-menu-container {width: 100%; position: relative;}
 .cl-menu-container .cl-checked-menu {display: none;}
 .cl-menu-container label {font-weight: normal; display: block; margin-bottom: 0;}
 .cl-menu-container .cl-checked-menu:checked + label {color: #f5d804;}
@@ -237,6 +237,11 @@ h5 {
 	left: 0;
 	right: 0;
 	height: 0;
+	width: 100%;
+	margin-left: -100%;
+	margin-right: 100%;
+	padding-left: 100%;
+	padding-right: 200%;
 }
 
 .cl-navigation li .cl-sub-menu ul {
@@ -270,6 +275,9 @@ h5 {
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-right: -5px;
+	position: absolute;
+	right: -5px;
+	top: 0;
 }
 
 .cl-title-container {
@@ -1109,6 +1117,7 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 
 	.cl-header-phone.pull-right {
 		float: left !important;
+		position: static;
 	}
 
 	.cl-menu-button {display: block;}
@@ -1207,6 +1216,16 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	.cl-md-row {
 		margin-left: -20px;
 		margin-right: -20px;
+	}
+
+	.cl-navigation li a {
+		padding-left: 5px;
+		padding-right: 5px
+	}
+
+	.cl-header-phone {
+		padding-left: 8px;
+		padding-right: 8px;
 	}
 }
 
