@@ -1272,4 +1272,8 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	.col-sm-5 {
 		width: 100%;
 	}
+
+	.cl-table tbody td {
+		font-size: 1.500em;
+	}
 }
