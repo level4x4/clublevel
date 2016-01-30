@@ -5,6 +5,7 @@
 	var $_mfPopupContainer;
 
 	var renderPopup = function() {
+		$mfPopupWindow.empty();
 		$mfPopupWindow.append(
 			$('<form/>', {action: '', method: 'POST'}).append(
 				$('<p/>', {class: 'mf-title-popup', text: 'Написать сообщение'})

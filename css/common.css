@@ -606,50 +606,36 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	margin: 30px auto;
 }
 
-.cl-table > thead > tr > td,
-.cl-table > tbody > tr > td {
-	padding-left: 40px;
-}
-
 .cl-table {
 	color: #383838;
 }
 
 .cl-table thead td {
-	font-size: 2.188em;
+	font-size: 1.500em;
 	background-color: #faf9d8;
 }
 
-.cl-table-sm {
-	color: #383838;
-}
-
-.cl-table-sm.cl-table thead td {
-	font-size: 1.500em;
-}
-
-.cl-table-sm.cl-table > thead > tr > td,
-.cl-table-sm.cl-table > tbody > tr > td {
-	padding-left: 40px;
-}
-
-.cl-table > tbody > tr > td {
+.cl-table tbody td {
 	font-size: 2.500em;
-	border-top-color: #faf9d8;
-}
-
-.cl-table-sm.cl-table > tbody > tr > td {
-	font-size: 1.875em;
-}
-
-.cl-table thead td p {
-	font-size: 0.600em;
 }
 
 .cl-table thead td p small {
 	font-size: 0.667em;
-	display: block;
 	color: #6c6c6c;
+	display: block;
+}
+
+.cl-table tbody td small {
+	font-size: 0.600em;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+	border-top-color: #faf9d8;
 }
 
 .cl-footer-correct {
@@ -1266,19 +1252,6 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 		margin-right: 0;
 	}
 
-	.cl-table-xs.cl-table thead td {
-		font-size: 1em;
-	}
-
-	.cl-table-xs.cl-table > thead > tr > td,
-	.cl-table-xs.cl-table > tbody > tr > td {
-		padding-left: 20px;
-	}
-
-	.cl-table-xs.cl-table > tbody > tr > td {
-		font-size: 1.5em;
-	}
-
 	.cl-xs-text-center {
 		text-align: center;
 		margin-left: auto;
@@ -1294,11 +1267,6 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	.cl-logos {
 		width: 320px;
 		height: 38px;
-	}
-
-	.cl-table > thead > tr > td,
-	.cl-table > tbody > tr > td {
-		padding-left: 0;
 	}
 
 	.col-sm-5 {
