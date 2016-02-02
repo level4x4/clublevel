@@ -993,6 +993,7 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 	.cl-menu-container {
 		margin-right: 0;
 		margin-left: 0;
+		position: static;
 	}
 
 	.cl-main-top-container__right-col {
