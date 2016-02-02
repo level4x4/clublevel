@@ -996,6 +996,13 @@ a.cl-item-solutions:hover .cl-image-col-4 svg {
 		position: static;
 	}
 
+	.cl-navigation li .cl-sub-menu {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 	.cl-main-top-container__right-col {
 		display: none;
 	}
